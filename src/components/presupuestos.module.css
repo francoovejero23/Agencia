@@ -1,10 +1,12 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 .grid-container {
   display: grid;
+  top: 100px;
+  position: relative;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
-  background-color: #2196F3;
+  background-color: white;
   padding: 10px;
 }
 
@@ -19,10 +21,58 @@
 .sub{
     /* display: block; */
     /* width: 50; */
-    background-color: #2196F3;
+    overflow: hidden;
+    background-color: white;
 }
 
-    /* image3{
-        grid-column: 1 / 4;
-    } */
+.presu{
+  font-family: 'Poppins', sans-serif;
+  font-size:1.5em;
+  text-align: left;
+  left:2%;
+  top: 200px;
+  position: relative;
+  font-weight: bold;
+}
+.parrafo{
+  color: black;
+  position: relative;
+  left:2%;
+  top: 200px;
+  text-align:left;
+  font-size: 0.8em;
+  font-family: 'Poppins', sans-serif;
+  width: 80%;
+ 
+  margin:0;
+}
+.buttons{
+  position: relative;
+  top: 250px;
+  padding: 12px;
+  color: white;
+  font-weight: bold;
+  background-color:rgb(185,54,207);
+}
+
+img{
+  margin:auto;
+  max-width: 100%;
+}
+
+.tradin2{
+  width: 350px;
+  height: 300px;
+}
+
+.tradin1{
+  width: 500px;
+  height: 300px;
+}
+
+.image3{
+  grid-column:1/3;
+  overflow: hidden;
+  height: 250px;
+}
 

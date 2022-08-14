@@ -9,10 +9,10 @@ function Home() {
 
           <div className="text">
         <h2><strong>AGENCIA DE MARKETING <br/>& PUBLICIDAD</strong></h2> 
-          </div>
         <p> Apalancá los ingresos de tu negocio con un equipo de profesionales especializados en las diferentes
           dimensiones del Marketing Digital. Trabajando con presupuestos fijos o por resultado de variables (% de ventas - Metodo despegar)
           Todo bajo garantia de satisfacción </p> 
+          </div>
           <div className="foto">
             <img src={img} alt='img not found'/>
           </div>
