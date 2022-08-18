@@ -1,9 +1,9 @@
 import React from 'react'
 import s from "./presupuestos.module.css"
 import './presupuestos.module.css'
-import image from '../images/charlesdeluvio-Lks7vei-eAg-unsplash.jpg'
-import image1 from '../images/alessio-zaccaria-MplUOXqEUK0-unsplash.jpg'
-import image2 from '../images/austin-distel-wD1LRb9OeEo-unsplash.jpg'
+import image from '../../images/charlesdeluvio-Lks7vei-eAg-unsplash.jpg'
+import image1 from '../../images/alessio-zaccaria-MplUOXqEUK0-unsplash.jpg'
+import image2 from '../../images/austin-distel-wD1LRb9OeEo-unsplash.jpg'
 export default function Presupuestos() {
     return (
         <div className={s["grid-container"]}>
