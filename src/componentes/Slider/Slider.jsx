@@ -9,7 +9,7 @@ export default function Slider() {
 
 
     function next(){
-        if (current>=integrantes.length) {
+        if (current>=integrantes.length-1) {
             setCurrent(0)
         } else{
             setCurrent(current + 1)
