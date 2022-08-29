@@ -2,13 +2,16 @@ import React from 'react'
 import s from "./servicios.module.css"
 export default function Servicios() {
   return (
+    <div className={s.services_container}>
+      <h1>Servicios</h1>
     <div className={s["grid-services"]}>
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
-        <div>5</div>
-        <div>6</div>
+        <div className={s.services_item}>1</div>
+        <div className={s.services_item}>2</div>
+        <div className={s.services_item}>3</div>
+        <div className={s.services_item}>4</div>
+        <div className={s.services_item}>5</div>
+        <div className={s.services_item}>6</div>
+    </div>
     </div>
   )
 }
