@@ -5,8 +5,6 @@ function Header() {
   return (
     <div id='main'>
         <Navbar/>
-        <Home/>
-
     </div>
   )
 }
