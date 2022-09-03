@@ -10,6 +10,7 @@
     "react-dom": "^18.1.0",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.7",
+    "react-slidy": "^4.3.3",
     "redux-thunk": "^2.4.1",
     "web-vitals": "^2.1.4"
   },
@@ -36,10 +37,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.4.8",
-    "postcss": "^8.4.16",
-    "tailwindcss": "^3.1.8"
   }
 }
