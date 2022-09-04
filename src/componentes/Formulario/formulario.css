@@ -1,0 +1,23 @@
+.form_contact{
+    margin: 40px 0;
+    padding: 10px;
+    text-align: center;
+    background-color: violet;
+}
+
+.form_contact-container{
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+    justify-content: center;
+    gap: 10px;
+}
+
+.input_large{
+    grid-column:1/3;
+}
+
+.submit_button-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}

@@ -1,4 +1,6 @@
 import React from 'react';
+import Footer from './componentes/Footer/Footer.jsx';
+import Formulario from './componentes/Formulario/Formulario.jsx';
 import Header from './componentes/Header/Header.jsx';
 import Home from './componentes/Home/Home.jsx';
 import Metodo from './componentes/Metodo/Metodo.jsx'
@@ -16,6 +18,8 @@ function App() {
      <Presupuestos />	
      <Servicios/>
      <Slider/>
+     <Formulario/>
+     <Footer/>
     </div>
   );
 }
