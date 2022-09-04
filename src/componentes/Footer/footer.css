@@ -1,0 +1,26 @@
+.footer{
+    display: grid;
+    grid-template-columns: repeat(2, 2.5fr) 1fr;
+    justify-content: space-evenly;
+    background-color: black;
+    text-align: start;
+    padding: 0 20px;
+    color: white;
+}
+
+
+.social_icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.social_icon{
+    margin: 0 5px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: white;
+}
