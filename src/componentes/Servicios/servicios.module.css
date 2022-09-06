@@ -1,22 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 .services_container{
-    background-color: violet;
+    background: rgb(185,54,207);
+    background: linear-gradient(90deg, rgba(185,54,207,1) 50%, rgba(71,23,246,1) 100%);
     margin-top: 400px;
     padding-bottom: 50px;
     text-align: center;
-
+    clip-path: polygon(0% 21%,100% 1%,100% 74%,0% 91%);
+    height:1250px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .grid-services{
+    position: relative;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+    top:160px;
     margin: 150px 50px 0px;
+    
 }
 
+.titulo{
+    position: relative;
+    color: black;
+    font-size:3em;
+    top: 250px;
+    font-weight: bold;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+}
 
 .services_item{
     background-color: white;
-    height: 200px;
+    height: 250px;
+    width:500px;
+    clip-path: polygon(10% 10%,100% 5%,90% 90%,0% 94%);
 }
 
 @media (max-width: 700px) {

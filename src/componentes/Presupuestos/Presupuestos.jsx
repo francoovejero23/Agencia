@@ -7,7 +7,7 @@ import image2 from '../../images/austin-distel-wD1LRb9OeEo-unsplash.jpg'
 export default function Presupuestos() {
     return (
         <div className={s["grid-container"]}>
-            <div>
+            <div className={s.contenedorpresu}>
                 <h1 className={s.presu}>Presupuestos<br></br>Personalizados</h1>
                 
                 <h3 className={s.parrafo}>

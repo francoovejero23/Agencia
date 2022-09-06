@@ -50,7 +50,29 @@ p{
 .foto {
     /* position: absolute;
     z-index: -1; */
+    top: 45px;
+    position: relative;
     display:block;
-    width:100%;
+    width:50%;
     height:auto;
+}
+
+@media (max-width: 1199.98px)  {
+    body{background: red;}
+    .text{
+        position: relative;
+        top: 0;
+        width: 90%;
+        height: auto;
+        font-size:16px;
+        
+        
+    }
+
+    
+
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation:portrait) {
+    body{background: orange;}
 }
