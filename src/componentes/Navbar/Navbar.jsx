@@ -12,19 +12,19 @@ import "./navBar.css"
 // }`}
 
 function Navbar() {
-  let [prevScroll, setPrevScroll] = useState(0)
+//   let [prevScroll, setPrevScroll] = useState(0)
 
 
-  useEffect(() => {
-    window.addEventListener('scroll', ()=>{
-        setPrevScroll(window.scrollY)
-    })
-},[prevScroll])
-
+//   useEffect(() => {
+//     window.addEventListener('scroll', ()=>{
+//         setPrevScroll(window.scrollY)
+//     })
+// },[prevScroll])
+// className={`padre ${prevScroll>0?"color":"transparent"}`}
 
   return (
     <div>
-      <nav className={`padre ${prevScroll>0?"color":"transparent"}`}>
+      <nav className='padre color'>
       <Link to='main' className='logo'>
         <img src={logo} alt='logo'/>
         </Link>
