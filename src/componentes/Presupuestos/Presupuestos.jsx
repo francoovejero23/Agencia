@@ -9,14 +9,14 @@ import image3 from '../../images/charlesdeluvio-Lks7vei-eAg-unsplash.jpg'
 export default function Presupuestos() {
     return (
         <div className="grid_container-pres">
-            <div>
-                <h1 className={"presu"}>Presupuestos<br></br>Personalizados</h1>
+            <div className="container-info-pres">
+                <h1 className="title-pres">Presupuestos <br /> Personalizados</h1>
 
-                <h3 className={"parrafo"}>
-                    Si te gustaria contratar alguno de nuestros servicios recibir mas informacion al respecto
-                    contactanos para una asesoria gratuita con nuestro equipo
-                </h3>
-                <button className={"buttons"}>MAS INFO</button>
+                <span className="parrafo-pres">
+                    Si te gustaria contratar alguno de nuestros servicios o recibir mas informacion al respecto
+                    contactanos para una asesoria gratuita con nuestro equipo.
+                </span>
+                <button className="button-presupuesto">MAS INFO</button>
             </div>
             <div className="grid_container-pres-img">
                 <img className="image_pres" src={image1} alt="" />
