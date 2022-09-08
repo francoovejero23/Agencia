@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 
 body{
@@ -14,8 +14,12 @@ body{
 
 a{
   text-decoration: none;
+  cursor: pointer;
 }
+
+
 button{
+  cursor: pointer;
   outline: none;
   border: none;
 }
